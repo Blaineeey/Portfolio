@@ -34,8 +34,8 @@ export function Navigation() {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume.pdf"
-    link.download = "resume.pdf"
+    link.href = "/Blaine.pdf"
+    link.download = "Blaine.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
