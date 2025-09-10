@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
 
     // Send email via Resend
     const data = await resend.emails.send({
-      from: "Contact Form <conctact@blainepanares.xyz>",
+      from: "Contact Form <contact@blainepanares.xyz>",
       to: ["blainepanaresofficial@gmail.com"],
       subject: `PortfolioNew Message: ${subject}`,
       replyTo: email,
