@@ -6,28 +6,19 @@ import { Calendar, MapPin } from "lucide-react"
 
 const timelineData = [
   {
-    year: "2024 - 2025",
+    year: "09/2024 - 12/2024",
     title: "Software Engineer Intern",
-    company: "Sendible Inc.",
-    location: "Remote",
+    company: "Sprobe Inc.",
+    location: "Cebu IT Tower 2",
     description:
       "Contributed to full-stack development projects by building RESTful APIs, implementing user authentication and integrating database queries, while following Agile methodologies and Git version control. Developed debugging and code review skills while learning to implement and test features, and ensuring responsive, accessible designs across devices.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Git", "Agile"],
+    technologies: ["Laravel", "Vite", "MySQL", "Docker", "Git", "Agile"],
   },
   {
-    year: "2023 - 2024",
-    title: "Webflow Developer",
-    company: "Horizon Marketing",
-    location: "Remote",
-    description:
-      "Designed and developed responsive, high-converting websites using Webflow, implementing custom interactions, CMS structures, and integrations. Enhanced functionality and user experience.",
-    technologies: ["Webflow", "CSS", "JavaScript", "CMS", "Responsive Design"],
-  },
-  {
-    year: "2023 - 2024",
+    year: "2023",
     title: "UI/UX Competition",
     company: "1st Place",
-    location: "Various",
+    location: "UC Main Campus",
     description:
       "Competed as designing an intuitive, user-friendly interface that balanced aesthetics and functionality. Conducted user research, created wireframes, and prototypes that enhanced user experience while applying modern design principles to solve real-world problems.",
     technologies: ["Figma", "User Research", "Wireframing", "Prototyping", "Design Systems"],

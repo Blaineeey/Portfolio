@@ -38,18 +38,13 @@ const skills = {
 const achievements = [
   {
     icon: Award,
-    title: "AWS Certified Solutions Architect",
+    title: "UC DAYS CSPS Competition - 1st Place in UI/UX Designing",
     year: "2023",
   },
   {
     icon: Award,
-    title: "Google Cloud Professional Developer",
+    title: "Cisco Networking Certificate of Completion",
     year: "2022",
-  },
-  {
-    icon: GraduationCap,
-    title: "Computer Science Degree - Magna Cum Laude",
-    year: "2020",
   },
 ]
 
@@ -81,15 +76,15 @@ export function ContactSection() {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-sm">blaine.panares@email.com</span>
+                  <span className="text-sm">blainepanaresofficial@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-sm">+1 (555) 123-4567</span>
+                  <span className="text-sm">+63 926 0047 542</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-sm">San Francisco, CA</span>
+                  <span className="text-sm">Missionaries Street, Barangay Suba(Pob.) Cebu City 6000 Philippines</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Calendar className="w-4 h-4 text-muted-foreground" />
@@ -172,11 +167,15 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-pretty leading-relaxed">
-                  I'm a passionate software engineer with over 4 years of experience building scalable web applications
-                  and leading development teams. I thrive on solving complex problems and creating innovative solutions
-                  that make a real impact. When I'm not coding, you can find me contributing to open-source projects,
-                  mentoring junior developers, or exploring the latest technologies in the ever-evolving world of
-                  software development.
+                  I am a Computer Science graduate from the University of Cebu with a strong 
+                  passion for building full-stack web applications. With hands-on experience in 
+                  both front-end and back-end development, I've worked with a wide range of 
+                  technologies including Vue.js, React.js, Next.js, jQuery, Tailwind CSS, Bootstrap, 
+                  Laravel (PHP), and ASP.NET. My projects range from hotel and event management systems 
+                  to e-commerce platforms and UI/UX design prototypes. I'm skilled in developing responsive, 
+                  user-centric interfaces and robust back-end logic, often handling full-cycle development independently. 
+                  I aim to contribute to impactful digital solutions while continuously growing as a full-stack 
+                  developer through real-world collaboration and innovation.
                 </p>
 
                 <div className="mt-6 pt-6 border-t border-border">
@@ -185,7 +184,17 @@ export function ContactSection() {
                     <div>
                       <p className="font-medium">Bachelor of Science in Computer Science</p>
                       <p className="text-sm text-muted-foreground">
-                        University of Technology • 2016-2020 • Magna Cum Laude
+                        University of Cebu Main Campus  |                         <Badge variant="outline" className="glassmorphism">
+                            2021 - 2025 
+                          </Badge>
+                      </p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Science, Technology, Engineering, and Mathematics</p>
+                      <p className="text-sm text-muted-foreground">
+                        University of Cebu Main Campus  |                         <Badge variant="outline" className="glassmorphism">
+                            2019 - 2021 
+                          </Badge>
                       </p>
                     </div>
                   </div>

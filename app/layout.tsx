@@ -10,7 +10,6 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Portfolio - Software Engineer",
   description: "Modern portfolio showcasing software engineering projects and expertise",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

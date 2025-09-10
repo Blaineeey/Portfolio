@@ -22,7 +22,7 @@ export function HeroSection() {
             <div className="w-80 h-80 lg:w-96 lg:h-96 relative">
               <div className="absolute inset-0 glassmorphism rounded-full floating-particle"></div>
               <div className="absolute inset-4 rounded-full overflow-hidden">
-                <Image src="/src/assets/images/Me.jpg" alt="Blaine B. Pañares" fill className="object-cover" priority />
+                <Image src="Me.jpg" alt="Blaine B. Pañares" fill className="object-cover" priority />
               </div>
             </div>
           </div>

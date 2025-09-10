@@ -1,4 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
+import { Resend } from "resend"
+
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: NextRequest) {
   try {
@@ -15,32 +18,31 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Invalid email format" }, { status: 400 })
     }
 
-    // Here you would integrate with your email service
-    // For now, we'll just log the message and return success
-    console.log("Contact form submission:", {
-      name,
-      email,
-      subject,
-      message,
-      timestamp: new Date().toISOString(),
+    // Send email via Resend
+    const data = await resend.emails.send({
+      from: "Contact Form <onboarding@resend.dev>", // You can configure a verified sender
+      to: ["blainepanaresofficial@gmail.com"],
+      subject: `PortfolioNew Message: ${subject}`,
+      replyTo: email,
+      html: `
+        <div style="font-family: sans-serif; line-height: 1.5;">
+          <h2>📥 New Contact Form Submission</h2>
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Subject:</strong> ${subject}</p>
+          <p><strong>Message:</strong></p>
+          <p>${message.replace(/\n/g, "<br>")}</p>
+          <hr />
+          <p style="font-size: 12px; color: gray;">Sent from your portfolio contact form</p>
+        </div>
+      `,
     })
 
-    // TODO: Integrate with email service like Resend, SendGrid, or AWS SES
-    // Example with Resend:
-    // const resend = new Resend(process.env.RESEND_API_KEY)
-    // await resend.emails.send({
-    //   from: 'portfolio@yourdomain.com',
-    //   to: 'blaine.panares@email.com',
-    //   subject: `Portfolio Contact: ${subject}`,
-    //   html: `
-    //     <h2>New Contact Form Submission</h2>
-    //     <p><strong>Name:</strong> ${name}</p>
-    //     <p><strong>Email:</strong> ${email}</p>
-    //     <p><strong>Subject:</strong> ${subject}</p>
-    //     <p><strong>Message:</strong></p>
-    //     <p>${message}</p>
-    //   `
-    // })
+    // Optional: check Resend response
+    if (data.error) {
+      console.error("Resend error:", data.error)
+      return NextResponse.json({ error: "Failed to send email" }, { status: 500 })
+    }
 
     return NextResponse.json({ message: "Message sent successfully" }, { status: 200 })
   } catch (error) {

@@ -34,8 +34,8 @@ export function Navigation() {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // You'll need to add your resume PDF to the public folder
-    link.download = "Blaine_Panares_Resume.pdf"
+    link.href = "/resume.pdf"
+    link.download = "Resume.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -55,7 +55,7 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <Image src="/bp-logo.png" alt="BP Logo" width={40} height={40} className="rounded-lg" />
-            <div className="text-xl font-bold text-primary">Blaine B. Pañares</div>
+            <div className="text-xl font-bold text-primary"></div>
           </div>
 
           {/* Desktop Navigation */}

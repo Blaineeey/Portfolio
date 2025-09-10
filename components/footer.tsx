@@ -12,8 +12,7 @@ export function Footer() {
           <div className="flex items-center gap-3 text-center md:text-left">
             <Image src="/bp-logo.png" alt="BP Logo" width={32} height={32} className="rounded-lg" />
             <p className="text-muted-foreground">
-              © 2024 Blaine B. Pañares. Built with <Heart className="w-4 h-4 inline text-red-500" /> using Next.js and
-              Tailwind CSS.
+              Blaine B. Pañares
             </p>
           </div>
 
