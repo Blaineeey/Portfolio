@@ -8,8 +8,13 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Portfolio - Software Engineer",
-  description: "Modern portfolio showcasing software engineering projects and expertise",
+  title: "Bln - Software Engineer",
+  description: "Blaine B. Pañares - Software Engineer Portfolio",
+    icons: {
+    icon: "/bp-logo.png",   
+    shortcut: "/bp-logo.png",      
+    apple: "/bp-logo.png",        
+  },
 }
 
 export default function RootLayout({

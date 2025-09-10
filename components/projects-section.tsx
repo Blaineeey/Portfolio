@@ -15,7 +15,7 @@ const projects = [
       "Built a responsive Next.js website for the KasadyaCraft Minecraft server, featuring an integrated e-commerce system that allows players to purchase in-game ranks and items with real money. The platform connects seamlessly with the game server, supports secure payment processing, and delivers a smooth, user-friendly experience for the community across desktop and mobile devices.",
     image: "project1.png",
     technologies: ["Next.js", "React", "Tailwind CSS", "E-commerce", "Gaming"],
-    liveUrl: "https://kasadya-craft.vercel.app/",
+    liveUrl: "http://kasadyacraft.online/",
     githubUrl: "https://github.com/Blaineeey/KasadyaCraft",
     featured: true,
   },
