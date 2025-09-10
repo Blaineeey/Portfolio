@@ -7,25 +7,39 @@ import { Code, Server, Palette } from "lucide-react"
 const expertiseAreas = [
   {
     icon: Code,
-    title: "Full Stack Web Development",
+    title: "Frontend Development",
     description:
-      "I love full-stack web applications from scratch using modern frameworks and libraries. I have experience in both frontend and backend development, ensuring full-cycle development and seamless integration throughout the development lifecycle.",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "MySQL"],
+      "I create dynamic, responsive, and user-friendly interfaces using modern frontend technologies such as React, Next.js, and JavaScript. With a focus on performance, accessibility, and user experience, I build seamless web applications that are both visually appealing and functional.",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+  },
+  {
+    icon: Server,
+    title: "Backend Development",
+    description:
+      "I specialize in building robust backend systems using technologies like Node.js, Express, Laravel, and ASP.NET. With strong knowledge of API development, database management (MongoDB, MySQL), and server-side logic, I deliver scalable and secure web applications that power dynamic user experiences.",
+    skills: ["Node.js", "Express", "Laravel", "PHP", "MongoDB", "MySQL", "PostgreSQL", "RESTful APIs"],
   },
   {
     icon: Server,
     title: "DevOps & Tools",
     description:
-      "I work with various development tools and technologies to streamline the development process. I have experience with version control, containerization, and deployment strategies. I focus on creating efficient development workflows and proper project management throughout the development lifecycle.",
-    skills: ["Git", "GitHub", "Docker", "Linux", "AWS", "Heroku", "Postman", "VS Code"],
+      "I work with various development tools and technologies to streamline the development process. From version control with Git to containerization with Docker, I ensure efficient development workflows and proper project management throughout the development lifecycle.",
+    skills: ["Git", "GitHub", "Docker", "Linux", "Postman", "VS Code", "Cisco Packet Tracer", "PhpMyAdmin", "CI/CD"],
   },
   {
     icon: Palette,
     title: "UI/UX Design",
     description:
-      "I enjoy user-centric interfaces and create comprehensive UI/UX prototypes that balance aesthetics and functionality. I have experience in designing user interfaces, creating wireframes, and software and working to place in UI/UX designing competitions. I focus on creating responsive, accessible, and visually appealing user experiences.",
-    skills: ["Figma", "Adobe XD", "Canva", "Photoshop", "Wireframing", "Prototyping"],
+      "I design user-centric interfaces and create comprehensive UI/UX prototypes for various applications. With experience in designing project management software and winning 1st place in UI/UX designing competition, I focus on creating responsive, accessible, and visually appealing user experiences.",
+    skills: ["Figma", "Adobe XD", "Canva", "Photoshop", "Wireframing", "Prototyping", "User Research", "Usability Testing"],
   },
+  {
+    icon: Palette,
+    title: "No/Low Code Development",
+    description:
+      "I build responsive, user-friendly websites using no-code platforms like Webflow, Shopify, and WordPress. Specializing in delivering tailored, visually appealing websites for businesses, I focus on creating seamless user experiences without writing code. From e-commerce sites to personal portfolios, I handle everything from design to deployment, ensuring high-quality, functional results.",
+    skills: ["Webflow", "Shopify", "WordPress", "Bubble", "Lovable"],
+  }
 ]
 
 export function ExpertiseSection() {

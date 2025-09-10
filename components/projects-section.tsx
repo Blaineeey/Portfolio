@@ -64,14 +64,14 @@ const projects = [
   },
   {
     id: 6,
-    title: "Widding Planning App",
-    description: "Mobile-first fitness application with workout tracking, progress analytics, and social features.",
-    image: "/src/assets/images/project6.png",
-    technologies: ["React ", "Node", "Schema", "Api", "E-commerce"],
+    title: "Wedding Planning App",
+    description: "A web-based platform designed to help couples, planners, and vendors streamline the entire wedding planning process. From project creation and guest list management to budgeting, vendor management, and real-time messaging, this app offers everything needed to organize a wedding seamlessly. Additionally, it allows couples to create their own personalized wedding websites with RSVP integration and vendor directories.",
+    image: "project7.png",
+    technologies: ["React", "Node.js", "Express", "PostgreSQL", "MongoDB", "Stripe", "Twilio", "E-commerce", "API Integration"],
     liveUrl: "https://github.com/Blaineeey/Planning-Suite",
     githubUrl: "https://github.com/Blaineeey/Planning-Suite",
-    featured: false,
-  },
+    featured: true,
+  }
 ]
 
 export function ProjectsSection() {
