@@ -32,13 +32,9 @@ export function Navigation() {
     }
   }
 
+  // Updated download function for Google Drive link
   const downloadResume = () => {
-    const link = document.createElement("a")
-    link.href = "/Blaine.pdf"
-    link.download = "Blaine.pdf"
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+    window.open('https://drive.google.com/uc?export=download&id=1RzRnw5Gf7jakDl_i9kCzjyFJL66IFnKC', '_blank');
   }
 
   if (!mounted) {
@@ -91,7 +87,7 @@ export function Navigation() {
               Contact
             </button>
             <Button
-              onClick={downloadResume}
+              onClick={downloadResume} // Download from Google Drive
               variant="outline"
               size="sm"
               className="glassmorphism hover-lift bg-transparent border-bp-blue text-bp-blue hover:bg-bp-blue hover:text-white"
