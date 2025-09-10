@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Server, Palette } from "lucide-react"
+import { Code, Server, Palette, } from "lucide-react"
 
 const expertiseAreas = [
   {
@@ -39,6 +39,13 @@ const expertiseAreas = [
     description:
       "I build responsive, user-friendly websites using no-code platforms like Webflow, Shopify, and WordPress. Specializing in delivering tailored, visually appealing websites for businesses, I focus on creating seamless user experiences without writing code. From e-commerce sites to personal portfolios, I handle everything from design to deployment, ensuring high-quality, functional results.",
     skills: ["Webflow", "Shopify", "WordPress", "Bubble", "Lovable"],
+  },
+    {
+    icon: Code,
+    title: "Mobile Development",
+    description:
+      "I develop cross-platform mobile applications using frameworks like React Native and Expo. My focus is on creating apps that deliver smooth performance, intuitive design, and seamless user experiences across both iOS and Android devices.",
+    skills: ["React Native", "Expo"],
   }
 ]
 
