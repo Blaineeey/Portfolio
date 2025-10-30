@@ -6,22 +6,49 @@ import { Calendar, MapPin } from "lucide-react"
 
 const timelineData = [
   {
-    year: "09/2024 - 12/2024",
-    title: "Software Engineer Intern",
-    company: "Sprobe Inc.",
-    location: "Cebu IT Tower 2",
+    year: "2021 - 2025",
+    title: "Bachelor of Science in Computer Science",
+    company: "University of Cebu Main Campus",
+    location: "Cebu City",
     description:
-      "Contributed to full-stack development projects by building RESTful APIs, implementing user authentication and integrating database queries, while following Agile methodologies and Git version control. Developed debugging and code review skills while learning to implement and test features, and ensuring responsive, accessible designs across devices.",
+      "Pursuing a comprehensive education in computer science, covering software development, algorithms, data structures, web and mobile development, and system design. Gained hands-on experience through academic projects and competitions.",
+    technologies: ["Computer Science", "Software Engineering", "Web Development", "Mobile Development", "Algorithms"],
+  },
+  {
+    year: "09/2024 - 12/2024",
+    title: "Fullstack Developer Intern",
+    company: "Sprobe Inc.",
+    location: "14F Cebu IT Tower 2, Cebu City 6000",
+    description:
+      "Developed and maintained web applications using Laravel, Vite, and MySQL, ensuring clean and efficient code. Assisted in building and testing containerized environments with Docker, supporting scalable and reliable application deployment.",
     technologies: ["Laravel", "Vite", "MySQL", "Docker", "Git", "Agile"],
   },
   {
     year: "2023",
-    title: "UI/UX Competition",
-    company: "1st Place",
+    title: "UI/UX Design Competition",
+    company: "1st Place Winner",
     location: "UC Main Campus",
     description:
-      "Competed as designing an intuitive, user-friendly interface that balanced aesthetics and functionality. Conducted user research, created wireframes, and prototypes that enhanced user experience while applying modern design principles to solve real-world problems.",
+      "Won first place by designing an intuitive, user-friendly interface that balanced aesthetics and functionality. Conducted user research, created wireframes and prototypes that enhanced user experience while applying modern design principles to solve real-world problems.",
     technologies: ["Figma", "User Research", "Wireframing", "Prototyping", "Design Systems"],
+  },
+  {
+    year: "2022 - 2025",
+    title: "Web Development & Discord Bot Development",
+    company: "Freelance",
+    location: "International Clients",
+    description:
+      "Designed, developed, and maintained responsive websites using Webflow, WordPress, and custom code (Node.js, Next.js, Express). Built and managed Discord bots for automation, community engagement, and workflow integration using APIs and cloud services. Collaborated with international clients to deliver tailored web and automation solutions aligned with business goals. Implemented CMS-based systems for easy client content updates and scalability. Optimized website performance, security, and SEO for better user experience and visibility. Provided ongoing technical support, updates, and maintenance for 15+ projects.",
+    technologies: ["Webflow", "WordPress", "Next.js", "Express", "Node.js", "Discord.js", "APIs", "Cloud Services"],
+  },
+  {
+    year: "2019 - 2021",
+    title: "Science, Technology, Engineering, and Mathematics (STEM)",
+    company: "University of Cebu Main Campus",
+    location: "Cebu City",
+    description:
+      "Completed senior high school education with a focus on Science, Technology, Engineering, and Mathematics, building a strong foundation in analytical thinking and problem-solving skills.",
+    technologies: ["STEM", "Mathematics", "Science", "Research"],
   },
 ]
 
@@ -31,10 +58,10 @@ export function TimelineSection() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-balance">
-            Careers, and Achievements <span className="text-bp-blue">History</span>
+            Career & Achievements <span className="text-bp-blue">History</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            My career progression and key achievements in software development
+            My professional journey and key milestones in software development and education
           </p>
         </div>
 

@@ -37,8 +37,8 @@ export function HeroSection() {
               <p className="text-xl lg:text-2xl text-muted-foreground mb-6">Software Engineer</p>
 
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl text-pretty">
-                Passionate about creating innovative solutions and building scalable applications. I specialize in
-                full-stack development with a focus on modern technologies and best practices.
+                Full-stack software engineer specializing in building scalable web applications and innovative solutions.
+                Experienced in modern technologies from frontend frameworks to backend systems, with a passion for clean code and exceptional user experiences.
               </p>
 
               {/* Social Links */}

@@ -34,7 +34,7 @@ export function Navigation() {
 
   // Updated download function for Google Drive link
   const downloadResume = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1RzRnw5Gf7jakDl_i9kCzjyFJL66IFnKC', '_blank');
+    window.open('https://drive.usercontent.google.com/download?id=1ElPSN90NKr4vZEkXOM3zQHZg2nbcTg-J&export=download&authuser=0&confirm=t&uuid=11749480-7c28-4dec-8261-6d6c08172709&at=AKSUxGNyRHOWv84WKL9goXzHgO-R:1761822185207', '_blank');
   }
 
   if (!mounted) {
@@ -79,6 +79,12 @@ export function Navigation() {
               className="text-foreground hover:text-bp-blue transition-colors"
             >
               Projects
+            </button>
+            <button
+              onClick={() => scrollToSection("freelance")}
+              className="text-foreground hover:text-bp-blue transition-colors"
+            >
+              Freelance
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -156,6 +162,12 @@ export function Navigation() {
                 className="text-left text-foreground hover:text-bp-blue transition-colors"
               >
                 Projects
+              </button>
+              <button
+                onClick={() => scrollToSection("freelance")}
+                className="text-left text-foreground hover:text-bp-blue transition-colors"
+              >
+                Freelance
               </button>
               <button
                 onClick={() => scrollToSection("contact")}

@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/hero-section"
 import { ExpertiseSection } from "@/components/expertise-section"
 import { TimelineSection } from "@/components/timeline-section"
 import { ProjectsSection } from "@/components/projects-section"
+import { FreelanceSection } from "@/components/freelance-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { AnimatedBackground } from "@/components/animated-background"
@@ -34,6 +35,7 @@ export default function Portfolio() {
         <ExpertiseSection />
         <TimelineSection />
         <ProjectsSection />
+        <FreelanceSection />
         <ContactSection />
       </main>
       <Footer />

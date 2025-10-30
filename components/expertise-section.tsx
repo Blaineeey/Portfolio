@@ -2,50 +2,50 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Server, Palette, } from "lucide-react"
+import { Code, Server, Palette } from "lucide-react"
 
 const expertiseAreas = [
   {
     icon: Code,
     title: "Frontend Development",
     description:
-      "I create dynamic, responsive, and user-friendly interfaces using modern frontend technologies such as React, Next.js, and JavaScript. With a focus on performance, accessibility, and user experience, I build seamless web applications that are both visually appealing and functional.",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      "Creating dynamic, responsive, and user-friendly interfaces using modern frontend technologies such as React, Next.js, and TypeScript. Focused on building seamless web applications that prioritize performance, accessibility, and exceptional user experience.",
+    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Redux"],
   },
   {
     icon: Server,
     title: "Backend Development",
     description:
-      "I specialize in building robust backend systems using technologies like Node.js, Express, Laravel, and ASP.NET. With strong knowledge of API development, database management (MongoDB, MySQL), and server-side logic, I deliver scalable and secure web applications that power dynamic user experiences.",
-    skills: ["Node.js", "Express", "Laravel", "PHP", "MongoDB", "MySQL", "PostgreSQL", "RESTful APIs"],
+      "Specializing in robust backend systems using Node.js, Express, Laravel, and ASP.NET. Expertise in API development, database management (MongoDB, MySQL, PostgreSQL), and server-side logic to deliver scalable, secure applications that power dynamic user experiences.",
+    skills: ["Node.js", "Express", "Laravel", "PHP", "ASP.NET", "Python", "C#", "Java", "MongoDB", "MySQL", "PostgreSQL", "RESTful APIs"],
   },
   {
     icon: Server,
     title: "DevOps & Tools",
     description:
-      "I work with various development tools and technologies to streamline the development process. From version control with Git to containerization with Docker, I ensure efficient development workflows and proper project management throughout the development lifecycle.",
-    skills: ["Git", "GitHub", "Docker", "Linux", "Postman", "VS Code", "Cisco Packet Tracer", "PhpMyAdmin", "CI/CD"],
+      "Proficient with modern development tools and technologies to streamline workflows. From version control with Git to containerization with Docker, ensuring efficient development processes and proper project management throughout the entire development lifecycle.",
+    skills: ["Git", "GitHub", "Docker", "Linux", "Postman", "Visual Studio", "VS Code", "Make", "N8n", "Figma", "CI/CD"],
   },
   {
     icon: Palette,
     title: "UI/UX Design",
     description:
-      "I design user-centric interfaces and create comprehensive UI/UX prototypes for various applications. With experience in designing project management software and winning 1st place in UI/UX designing competition, I focus on creating responsive, accessible, and visually appealing user experiences.",
+      "Designing user-centric interfaces and comprehensive UI/UX prototypes for various applications. Award-winning designer with 1st place in UI/UX design competition, focused on creating responsive, accessible, and visually appealing user experiences.",
     skills: ["Figma", "Adobe XD", "Canva", "Photoshop", "Wireframing", "Prototyping", "User Research", "Usability Testing"],
   },
   {
     icon: Palette,
     title: "No/Low Code Development",
     description:
-      "I build responsive, user-friendly websites using no-code platforms like Webflow, Shopify, and WordPress. Specializing in delivering tailored, visually appealing websites for businesses, I focus on creating seamless user experiences without writing code. From e-commerce sites to personal portfolios, I handle everything from design to deployment, ensuring high-quality, functional results.",
+      "Building responsive, user-friendly websites using no-code platforms like Webflow, Shopify, and WordPress. Delivering tailored, visually appealing solutions for businesses from e-commerce sites to portfolios, handling everything from design to deployment with high-quality results.",
     skills: ["Webflow", "Shopify", "WordPress", "Bubble", "Lovable"],
   },
-    {
+  {
     icon: Code,
     title: "Mobile Development",
     description:
-      "I develop cross-platform mobile applications using frameworks like React Native and Expo. My focus is on creating apps that deliver smooth performance, intuitive design, and seamless user experiences across both iOS and Android devices.",
-    skills: ["React Native", "Expo"],
+      "Developing cross-platform mobile applications using React Native and Expo. Creating apps that deliver smooth performance, intuitive design, and seamless user experiences across both iOS and Android devices.",
+    skills: ["React Native", "Expo", "Java", "Kotlin", "C"],
   }
 ]
 
