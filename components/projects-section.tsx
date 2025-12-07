@@ -65,14 +65,14 @@ const projects = [
   },
   {
     id: 6,
-    title: "Discord Bot Collection",
+    title: "Presaling Website",
     description:
-      "Suite of Discord bots for automation and community engagement including Karma Bot (rewards system), Semo (moderation), Presaling Verification (crypto), Offerbot (marketplace), Coach Board (team management), and Crext Compiler (code execution). Utilizing Discord.js, APIs, and cloud services for seamless automation.",
-    image: "project2.png",
-    technologies: ["Discord.js", "Node.js", "JavaScript", "APIs", "MongoDB", "Automation"],
-    liveUrl: "https://github.com/blaineeey",
-    githubUrl: "https://github.com/blaineeey",
-    featured: false,
+      "Comprehensive real estate JV platform connecting wholesalers with buyers. Features automated due diligence reports using Google Maps API, real-time property underwriting, buybox management, and team building tools for vendors and professionals. Built with modern full-stack architecture to streamline property analysis and investment decisions.",
+    image: "Presaling.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Google Maps API"],
+    liveUrl: "https://www.presaling.com/",
+    githubUrl: "https://github.com/presaling-dev/presaling",
+    featured: true,
   }
 ]
 
